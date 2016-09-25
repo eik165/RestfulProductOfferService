@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Product</title>
+</head>
+<body>
+	<div style="padding-left: 110px; font-family: ariel;">
+		<h2>Create Shopping Product</h2>
+		<form action="rest/products" method="POST">
+			<div style="width: 210px; text-align: left;">
+				<div style="padding: 10px;">
+					Unique Product ID: <input name="id" />
+				</div>
+				<div style="padding: 10px;">
+					Product Name: <input name="productname" />
+				</div>
+				<div style="padding: 10px;">
+					Product Category: <input name="productcategory" />
+				</div>
+				<div style="width: 210px; padding: 10px;">
+					Product Description: <input name="productdescription" size="100" />
+				</div>
+				<div style="padding: 10px;">
+					Unit Sale Price: <input type="number" step="0.01"
+						name="productsaleprice" />
+				</div>
+				<div style="padding: 10px;">
+					Number Of Units: <input type="number" name="numberofunits" />
+				</div>
+				<div style="padding: 10px; text-align: center">
+					<input type="submit" value="Submit" />
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
