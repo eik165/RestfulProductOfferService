@@ -21,12 +21,19 @@ Beides there is limited Junit tests provided to test the Restful web service Pro
 The ProductClientTest assumes the webservice is running on local machine on port 8080
 
 
-# Websrvice FUncationality
+# Webservice Functionality
 
-getProducts - this gets the products listing
-getCount - this gets the count of total products
-createProduct - this will create product from parameters
-delete  - this will delete a product given id 
-getProduct  - this will get a product detail given id 
-update - this is to update an existing product
+getProducts - this gets the products listing.
+
+getCount - this gets the count of total products.
+
+createProduct - this will create product from parameters.
+
+delete  - this will delete a product given id.
+
+getProduct  - this will get a product detail given id.
+
+update - this is to update an existing product.
+
+
 
